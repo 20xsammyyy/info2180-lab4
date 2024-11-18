@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+body {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(45deg, #66bb6a, #26a69a); 
+    color: #ffffff; 
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(45deg, #ec407a, #ab47bc); 
+    justify-content: center;
+    height: 125px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.container h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+main .container {
+    background: linear-gradient(45deg, #ec407a, #ab47bc); 
+    margin: 20px 100px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+}
+
+#userinput {
+    width: 70%;
+    height: 50px;
+    border: 2px solid #1976d2;
+    border-radius: 8px;
+    padding: 10px;
+    transition: border 0.3s;
+}
+
+#userinput:focus {
+    border-color: #d32f2f;
+}
+
+#searchBtn {
+    height: 60px;
+    width: 120px;
+    background: linear-gradient(45deg, #d32f2f, #b71c1c);
+    border: none;
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#searchBtn:hover {
+    background: linear-gradient(45deg, #66bb6a, #26a69a);
+}
+
+#resulth {
+    font-size: 28px;
+}
+
+#result {
+    margin: 20px;
+    font-size: 24px;
+    padding: 20px;
+    border: 2px solid #1976d2;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #e57373, #ffa726); 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
